@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					93225E9E1923A6B1000FA45E = {
+						DevelopmentTeam = M63PA5KAC8;
+					};
 					93225EBF1923A6B2000FA45E = {
 						TestTargetID = 93225E9E1923A6B1000FA45E;
 					};
@@ -376,10 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaeruKazoeru/KaeruKazoeru-Prefix.pch";
 				INFOPLIST_FILE = "KaeruKazoeru/KaeruKazoeru-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaeruKazoeru/KaeruKazoeru-Prefix.pch";
 				INFOPLIST_FILE = "KaeruKazoeru/KaeruKazoeru-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
