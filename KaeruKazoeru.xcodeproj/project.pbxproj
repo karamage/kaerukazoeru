@@ -21,6 +21,10 @@
 		93225EC41923A6B2000FA45E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93225EA61923A6B2000FA45E /* UIKit.framework */; };
 		93225ECC1923A6B2000FA45E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93225ECA1923A6B2000FA45E /* InfoPlist.strings */; };
 		93225ECE1923A6B2000FA45E /* KaeruKazoeruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93225ECD1923A6B2000FA45E /* KaeruKazoeruTests.m */; };
+		93225ED81924FE8C000FA45E /* 33506674.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93225ED71924FE8C000FA45E /* 33506674.jpeg */; };
+		93225EDC192501DA000FA45E /* 31624930.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93225EDB192501DA000FA45E /* 31624930.jpeg */; };
+		93225EDF19264F97000FA45E /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93225EDE19264F97000FA45E /* 1.mp3 */; };
+		93225EE119265011000FA45E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93225EE019265011000FA45E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		93225EC91923A6B2000FA45E /* KaeruKazoeruTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaeruKazoeruTests-Info.plist"; sourceTree = "<group>"; };
 		93225ECB1923A6B2000FA45E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93225ECD1923A6B2000FA45E /* KaeruKazoeruTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaeruKazoeruTests.m; sourceTree = "<group>"; };
+		93225ED71924FE8C000FA45E /* 33506674.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33506674.jpeg; sourceTree = "<group>"; };
+		93225EDB192501DA000FA45E /* 31624930.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 31624930.jpeg; sourceTree = "<group>"; };
+		93225EDE19264F97000FA45E /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		93225EE019265011000FA45E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93225EE119265011000FA45E /* AVFoundation.framework in Frameworks */,
 				93225EA51923A6B2000FA45E /* CoreGraphics.framework in Frameworks */,
 				93225EA71923A6B2000FA45E /* UIKit.framework in Frameworks */,
 				93225EA31923A6B2000FA45E /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		93225EA11923A6B2000FA45E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93225EE019265011000FA45E /* AVFoundation.framework */,
 				93225EA21923A6B2000FA45E /* Foundation.framework */,
 				93225EA41923A6B2000FA45E /* CoreGraphics.framework */,
 				93225EA61923A6B2000FA45E /* UIKit.framework */,
@@ -112,6 +122,9 @@
 		93225EA81923A6B2000FA45E /* KaeruKazoeru */ = {
 			isa = PBXGroup;
 			children = (
+				93225EDD19264F7C000FA45E /* Sounds */,
+				93225ED71924FE8C000FA45E /* 33506674.jpeg */,
+				93225EDB192501DA000FA45E /* 31624930.jpeg */,
 				93225EB11923A6B2000FA45E /* AppDelegate.h */,
 				93225EB21923A6B2000FA45E /* AppDelegate.m */,
 				93225EB41923A6B2000FA45E /* Main.storyboard */,
@@ -150,6 +163,14 @@
 				93225ECA1923A6B2000FA45E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93225EDD19264F7C000FA45E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				93225EDE19264F97000FA45E /* 1.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93225EDF19264F97000FA45E /* 1.mp3 in Resources */,
+				93225EDC192501DA000FA45E /* 31624930.jpeg in Resources */,
 				93225EBB1923A6B2000FA45E /* Images.xcassets in Resources */,
 				93225EAD1923A6B2000FA45E /* InfoPlist.strings in Resources */,
 				93225EB61923A6B2000FA45E /* Main.storyboard in Resources */,
+				93225ED81924FE8C000FA45E /* 33506674.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +489,7 @@
 				93225ED31923A6B2000FA45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93225ED41923A6B2000FA45E /* Build configuration list for PBXNativeTarget "KaeruKazoeruTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +498,7 @@
 				93225ED61923A6B2000FA45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
